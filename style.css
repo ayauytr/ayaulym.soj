@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f4ef;
+    color: #252525;
+}
+
+header {
+    height: 80px;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #252525;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #d6a354;
+}
+
+.hero {
+    min-height: 600px;
+    padding: 70px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f4ef;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.small-text {
+    color: #b47a2c;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero-text > p:not(.small-text) {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #252525;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #b47a2c;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #d6a354;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.about {
+    background: white;
+}
+
+.about-box {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    border-left: 5px solid #d6a354;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.number {
+    font-size: 40px;
+    color: #d6a354;
+    font-weight: bold;
+}
+
+.about-box h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.hobby {
+    background: #252525;
+    color: white;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.hobby-card {
+    width: 280px;
+    padding: 35px;
+    background: #333;
+    border-radius: 10px;
+}
+
+.hobby-card span {
+    color: #d6a354;
+    font-size: 14px;
+}
+
+.hobby-card h3 {
+    margin: 20px 0 15px;
+    font-size: 23px;
+}
+
+.hobby-card p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.hobby-card:hover {
+    transform: translateY(-8px);
+    background: #3d3d3d;
+}
+
+.contact {
+    text-align: center;
+    background: #f7f4ef;
+}
+
+.contact-info {
+    margin-top: 25px;
+}
+
+.contact-info p {
+    margin: 12px;
+    color: #555;
+}
+
+footer {
+    background: #151515;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    font-size: 14px;
+}
